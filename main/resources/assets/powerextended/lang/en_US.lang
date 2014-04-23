@@ -1,0 +1,15 @@
+item.fluxgear.name=Flux Gear
+item.woodengearpart.name=Part of a Wooden Gear
+item.stonegearpart.name=Part of a Stone Gear
+item.irongearpart.name=Part of a Iron Gear
+item.goldgearpart.name=Part of a Gold Gear
+item.diamondgearpart.name=Part of a Diamond Gear
+
+item.quarryarm.name=Quarry Arm
+
+itemGroup.Power Extended=Power Extended
+
+tile.Flux Engine.name=Flux Engine
+tile.gearplatingmachine.name=Gear Plating Machine
+tile.gearbox.name=Gear Box(W.I.P)
+tile.hydroblock.name=Hydro Block(W.I.P)
