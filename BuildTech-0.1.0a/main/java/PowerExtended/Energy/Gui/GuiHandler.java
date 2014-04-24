@@ -3,7 +3,7 @@
  * You can find more information about the MMPL license here:
  * http://www.mod-buildcraft.com/MMPL-1.0.txt
  *
- * This file is a property of BuildTech made by UniversalRed for Buildcraft, a Minecraft Mod
+ * This file is a property of BuildTech made by UniversalRed for BuildCraft, a mod for MineCraft
  */
 package PowerExtended.Energy.Gui;
 
