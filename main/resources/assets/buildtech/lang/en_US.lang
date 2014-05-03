@@ -1,0 +1,34 @@
+item.fluxgear.name=Flux Gear
+item.woodengearpart.name=Part of a Wooden Gear
+item.stonegearpart.name=Part of a Stone Gear
+item.irongearpart.name=Part of a Iron Gear
+item.goldgearpart.name=Part of a Gold Gear
+item.diamondgearpart.name=Part of a Diamond Gear
+
+item.quarryarm.name=Quarry Arm
+
+itemGroup.Power Extended=Power Extended
+
+tile.fluxengine.name=Flux Engine
+tile.gearplatingmachine.name=Gear Plating Machine
+tile.gearbox.name=Gear Box(W.I.P)
+tile.hydroblock.name=Hydro Block(W.I.P)
+
+tile.chromaore.name=Chromastone Ore
+
+item.chromachunk.name=Chunk of Chromastone
+item.chromaingot.name=Chromastone Ingot
+
+
+item.woodbattery.name=Wooden Battery
+item.stonebattery.name=Stone Battery
+item.ironbattery.name=Iron Battery
+item.goldbattery.name=Gold Battery
+item.diamondbattery.name=Diamond Battery
+
+item.emptydrill.name=Empty Drill
+item.wooddrill.name=Wooden Drill
+item.stonedrill.name=Stone Drill
+item.irondrill.name=Iron Drill
+item.golddrill.name=Gold Drill
+item.diamonddrill.name=Diamond Drill
