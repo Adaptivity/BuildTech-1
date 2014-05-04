@@ -7,12 +7,12 @@ item.diamondgearpart.name=Part of a Diamond Gear
 
 item.quarryarm.name=Quarry Arm
 
-itemGroup.Power Extended=Power Extended
+itemGroup.Power Extended=BuildTech
 
 tile.fluxengine.name=Flux Engine
-tile.gearplatingmachine.name=Gear Plating Machine
 tile.gearbox.name=Gear Box(W.I.P)
 tile.hydroblock.name=Hydro Block(W.I.P)
+tile.gearmachine.name=Assembling Machine
 
 tile.chromaore.name=Chromastone Ore
 
