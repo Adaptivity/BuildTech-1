@@ -1,0 +1,34 @@
+item.fluxgear.name=Флюксовая шестерня
+item.woodengearpart.name=Часть деревянной шестерни
+item.stonegearpart.name=Часть каменной шестерни
+item.irongearpart.name=Часть железной шестерни
+item.goldgearpart.name=Часть золотой шестерни
+item.diamondgearpart.name=Часть алмазной шестерни
+
+item.quarryarm.name=Каркас карьера
+
+itemGroup.Power Extended=BuildTech
+
+tile.fluxengine.name=Флюксовый двигатель
+tile.gearbox.name=Сборщик шестерён(W.I.P)
+tile.hydroblock.name=Гидроблок(W.I.P)
+tile.gearmachine.name=Сборочный механизм
+
+tile.chromaore.name=Цветокаменная руда
+
+item.chromachunk.name=Кусочек цветокамня
+item.chromaingot.name=Цветокаменный слиток
+
+
+item.woodbattery.name=Деревянный аккумулятор
+item.stonebattery.name=Каменный аккумулятор
+item.ironbattery.name=Железный аккумулятор
+item.goldbattery.name=Золотой аккумулятор
+item.diamondbattery.name=Алмазный аккумулятор
+
+item.emptydrill.name=Пустая дрель
+item.wooddrill.name=Деревянная дрель
+item.stonedrill.name=Каменная дрель
+item.irondrill.name=Железная дрель
+item.golddrill.name=Золотая дрель
+item.diamonddrill.name=Алмазная дрель
