@@ -3,39 +3,26 @@ package buildtech.factory;
 import buildcraft.core.IItemPipe;
 import buildcraft.core.utils.Utils;
 import buildtech.ModBuildTech;
+import cpw.mods.fml.common.network.internal.FMLNetworkHandler;
 import net.minecraft.block.Block;
-import net.minecraft.block.BlockContainer;
 import net.minecraft.block.material.Material;
-import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
-import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
-import cpw.mods.fml.common.network.internal.FMLNetworkHandler;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
 
+public class BlockChromaCell extends Block {
 
-public class BlockGearMachine extends BlockContainer {
-
-	IIcon textureFront;
-	IIcon textureTop;
-	IIcon textureSide;
-	IIcon textureBack;
-	IIcon textureBottom;
-
-	public BlockGearMachine() {
+	public BlockChromaCell(Material p_i45394_1_) {
 		super(Material.iron);
-		setCreativeTab(ModBuildTech.CreativeTabPowerExtended);
-		setHardness(3.0F);
-	
-	}
+		this.setLightLevel(1.0F);
 
+	}
+	
 	@Override
 	public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int side, float hitX, float hitY, float hitZ) {
 
@@ -49,38 +36,9 @@ public class BlockGearMachine extends BlockContainer {
 
 		return true;
 	}
-
-	@Override
-	public IIcon getIcon(int i, int j) {
-		// If no metadata is set, then this is an icon.
-		if (j == 0 && i == 3)
-			return textureFront;
-
-		if (i == j && i > 1)
-			return textureFront;
-
-		switch (i) {
-		case 0:
-			return textureBottom;
-		case 1:
-			return textureTop;
-		default:
-			return textureSide;
-		}
-	}
-	@Override
-	@SideOnly(Side.CLIENT)
-	public void registerBlockIcons(IIconRegister par1IconRegister) {
-		textureFront = par1IconRegister.registerIcon("buildtech:gearmachine_front");
-		textureSide = par1IconRegister.registerIcon("buildtech:gearmachine_sides");
-		textureTop = par1IconRegister.registerIcon("buildtech:gearmachine_bottom");
-		textureBack = par1IconRegister.registerIcon("buildtech:gearmachine_back");
-		textureBottom = par1IconRegister.registerIcon("buildtech:gearmachine_bottom");
-	}
-
-	@Override
+	
 	public TileEntity createNewTileEntity(World var1, int var2) {
-		return new TileGearMachine();
+		return new TileChromaCell(textureName, var2);
 	}
 
 	@Override
@@ -119,4 +77,17 @@ public class BlockGearMachine extends BlockContainer {
 		ForgeDirection orientation = Utils.get2dOrientation(entityliving);
 		world.setBlockMetadataWithNotify(i, j, k, orientation.getOpposite().ordinal(),1);
 	}
+	
+	public int getRenderType() {
+		return -1;
+	} 
+		
+	public boolean isOpaqueCube(){
+		return false;
+		}
+	public boolean renderAsNormalBlock(){
+		return false;
+	}
+
+
 }

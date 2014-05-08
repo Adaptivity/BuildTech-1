@@ -27,7 +27,6 @@ public class AssemblyRecipes extends GameRegistry{
 	public static void loadRecipes(){
 	
 		BuildcraftRecipes.assemblyTable.addRecipe(100000, new ItemStack(ModBuildTech.FluxGear), Items.redstone, BuildCraftCore.diamondGearItem);
-		//BuildcraftRecipes.assemblyTable.addRecipe(100000, new ItemStack(BuildCraftFactory.quarryBlock), Blocks.redstone_block, ModBuildTech.FluxGear, ModBuildTech.QuarryArm);
 	
 	}
 }

@@ -16,11 +16,11 @@ public class RecipeHelper {
 	private static ArrayList<Recipe> recipeList = new ArrayList<Recipe>();
 
 	public static void registerRecipes() {
-		registerRecipe(new GearPlatingRecipes(new ItemStack(Items.diamond, 2), new ItemStack(BuildCraftCore.goldGearItem), new ItemStack(Items.diamond, 2), new ItemStack(BuildCraftCore.diamondGearItem)));
-		registerRecipe(new GearPlatingRecipes(new ItemStack(Items.gold_ingot, 2), new ItemStack(BuildCraftCore.ironGearItem), new ItemStack(Items.gold_ingot, 2), new ItemStack(BuildCraftCore.goldGearItem)));
-		registerRecipe(new GearPlatingRecipes(new ItemStack(Items.iron_ingot, 2), new ItemStack(BuildCraftCore.stoneGearItem), new ItemStack(Items.iron_ingot, 2), new ItemStack(BuildCraftCore.ironGearItem)));
-		registerRecipe(new GearPlatingRecipes(new ItemStack(Blocks.cobblestone, 2), new ItemStack(BuildCraftCore.woodenGearItem), new ItemStack(Blocks.cobblestone, 2), new ItemStack(BuildCraftCore.stoneGearItem)));
-		registerRecipe(new GearPlatingRecipes(new ItemStack(Items.stick, 2), new ItemStack(Blocks.planks, 1), new ItemStack(Items.stick, 2), new ItemStack(BuildCraftCore.woodenGearItem)));
+		registerRecipe(new GearPlatingRecipes(new ItemStack(Items.diamond, 1), new ItemStack(BuildCraftCore.goldGearItem), new ItemStack(Items.diamond, 1), new ItemStack(BuildCraftCore.diamondGearItem)));
+		registerRecipe(new GearPlatingRecipes(new ItemStack(Items.gold_ingot, 1), new ItemStack(BuildCraftCore.ironGearItem), new ItemStack(Items.gold_ingot, 1), new ItemStack(BuildCraftCore.goldGearItem)));
+		registerRecipe(new GearPlatingRecipes(new ItemStack(Items.iron_ingot, 1), new ItemStack(BuildCraftCore.stoneGearItem), new ItemStack(Items.iron_ingot, 1), new ItemStack(BuildCraftCore.ironGearItem)));
+		registerRecipe(new GearPlatingRecipes(new ItemStack(Blocks.cobblestone, 1), new ItemStack(BuildCraftCore.woodenGearItem), new ItemStack(Blocks.cobblestone, 1), new ItemStack(BuildCraftCore.stoneGearItem)));
+		registerRecipe(new GearPlatingRecipes(new ItemStack(Items.stick, 1), new ItemStack(Blocks.planks, 1), new ItemStack(Items.stick, 1), new ItemStack(BuildCraftCore.woodenGearItem)));
 	}
 
 	public static void registerRecipe(Recipe recipe) {

@@ -10,9 +10,11 @@ package buildtech.proxies;
 
 import java.util.Random;
 
-import buildcraft.BuildCraftCore;
-import buildcraft.core.render.RenderRobot;
+import buildtech.factory.TileChromaCell;
+import buildtech.fluids.TileChromaTank;
 import buildtech.recipes.GearPlatingRecipes;
+import buildtech.renderers.RenderChromaCell;
+import buildtech.renderers.RenderChromaTank;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.entity.Render;
 import net.minecraft.entity.Entity;
@@ -22,43 +24,15 @@ import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.crafting.FurnaceRecipes;
+import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
-public class ClientProxy extends CommonProxy{
-
-
+public class ClientProxy extends CommonProxy{ 
 	
-	public static void addGearRecipe(Item Item,ItemStack itemStack) {
-		
-	}
-
-	private static void addGearRecipe(GearPlatingRecipes gearPlatingRecipes) {
-
-		
-	}
-
-	public static void loadRecipes(){
-		
-		addGearRecipe(new GearPlatingRecipes(new ItemStack(Items.stick), new ItemStack(Blocks.planks), new ItemStack(Items.stick), new ItemStack(BuildCraftCore.woodenGearItem)));
+	public void registerRenders(){
+		ClientRegistry.bindTileEntitySpecialRenderer(TileChromaTank.class, new RenderChromaTank());
 
 	}
-	
-
-	//Planned for the future
-/*
-   public static void addFreezerRecipe(Block block, ItemStack result){
-   //Wild Example
- 		addFreezerRecipe(Blocks.water, new ItemStack(Blocks.ice));
- 		addFreezerRecipe(Blocks.sapling, new ItemStack(Items.stick, 2));
- 		}
- */
- 
-  
-  
-  	
- 
-	
-	
 }

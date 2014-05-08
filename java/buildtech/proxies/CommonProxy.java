@@ -7,8 +7,16 @@
  */
 package buildtech.proxies;
 
+import buildtech.factory.TileChromaCell;
+import buildtech.fluids.TileChromaTank;
+import buildtech.renderers.RenderChromaCell;
+import buildtech.renderers.RenderChromaTank;
+import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 
 public class CommonProxy {
 	
+public void registerRenders(){
+	
+	}
 }

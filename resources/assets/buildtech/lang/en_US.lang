@@ -13,6 +13,7 @@ tile.fluxengine.name=Flux Engine
 tile.gearbox.name=Gear Box(W.I.P)
 tile.hydroblock.name=Hydro Block(W.I.P)
 tile.gearmachine.name=Assembling Machine
+tile.chromatank.name=Chromastone Tank
 
 tile.chromaore.name=Chromastone Ore
 

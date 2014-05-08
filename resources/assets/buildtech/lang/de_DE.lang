@@ -1,0 +1,34 @@
+item.fluxgear.name=Fluxzahnrad
+item.woodengearpart.name=Stück eines Holzzahnrads
+item.stonegearpart.name=Stück eines Steinzahnrads
+item.irongearpart.name=Stück eines Eisenzahnrads
+item.goldgearpart.name=Stück eines Goldzahnrads
+item.diamondgearpart.name=Stück eines Diamantzahnrads
+
+item.quarryarm.name=Steinbrucharm
+
+itemGroup.Power Extended=BuildTech
+
+tile.fluxengine.name=Fluxmotor
+tile.gearbox.name=Getriebe(W.I.P)
+tile.hydroblock.name=Hydroblock(W.I.P)
+tile.gearmachine.name=Montagemaschine
+
+tile.chromaore.name=Chromasteinerz
+
+item.chromachunk.name=Chromasteinklumpen
+item.chromaingot.name=Chromasteinbarren
+
+
+item.woodbattery.name=Holzbatterie
+item.stonebattery.name=Steinbatterie
+item.ironbattery.name=Eisenbatterie
+item.goldbattery.name=Goldbatterie
+item.diamondbattery.name=Diamantbatterie
+
+item.emptydrill.name=Leerer Bohrer
+item.wooddrill.name=Holzbohrer
+item.stonedrill.name=Steinbohrer
+item.irondrill.name=Eisenbohrer
+item.golddrill.name=Goldbohrer
+item.diamonddrill.name=Diamantbohrer

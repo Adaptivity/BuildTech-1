@@ -22,7 +22,7 @@ public class BuildCraftRecipes extends GameRegistry{
 
 	
 	public static void loadBCRecipes(){
-		
+	/* Maybe anothe time I will re-dd this, but for right now these recipes are TOO Unbalanced	
 		GameRegistry.addRecipe(new ItemStack(ModBuildTech.WoodenGearPart,1), new Object[]{
 			"IIX","IPX","XXX",'I',Items.stick,'P',Blocks.planks
 			});
@@ -73,7 +73,7 @@ public class BuildCraftRecipes extends GameRegistry{
 			"IQI",
 			'I',BuildCraftCore.ironGearItem,'Q', ModBuildTech.QuarryArm,'R', Blocks.redstone_block,'F',ModBuildTech.FluxGear,'B',Items.iron_ingot
 			});
-		
+	*/	
 		GameRegistry.addRecipe(new ItemStack(ModBuildTech.EmptyDrill,1), new Object[]{
 			"IIW","XXS","XXS",'I',Items.iron_ingot,'W', BuildCraftCore.woodenGearItem,'S', Items.stick
 			});
@@ -83,6 +83,13 @@ public class BuildCraftRecipes extends GameRegistry{
 			"GRG",
 			"IGI",
 			'I',Items.iron_ingot,'G', BuildCraftCore.ironGearItem,'R', Blocks.redstone_block
+			});
+		
+		GameRegistry.addRecipe(new ItemStack(ModBuildTech.ChromaTank,1), new Object[]{
+			"GCG",
+			"GTG",
+			"GCG",
+			'C',ModBuildTech.ChromaIngot,'G', Blocks.glass,'T', BuildCraftFactory.tankBlock
 			});
 		
 		
