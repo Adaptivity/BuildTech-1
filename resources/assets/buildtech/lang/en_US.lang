@@ -1,35 +1,43 @@
-item.fluxgear.name=Flux Gear
-item.woodengearpart.name=Part of a Wooden Gear
-item.stonegearpart.name=Part of a Stone Gear
-item.irongearpart.name=Part of a Iron Gear
-item.goldgearpart.name=Part of a Gold Gear
-item.diamondgearpart.name=Part of a Diamond Gear
+item.fluxGear.name=Flux Gear
+item.woodenGearPart.name=Part of a Wooden Gear
+item.stoneGearPart.name=Part of a Stone Gear
+item.ironGearPart.name=Part of a Iron Gear
+item.goldGearPart.name=Part of a Gold Gear
+item.diamondGearPart.name=Part of a Diamond Gear
 
 item.quarryarm.name=Quarry Arm
 
-itemGroup.Power Extended=BuildTech
+itemGroup.BTItemTab=BuildTech Items
+itemGroup.BTBlockTab=BuildTech Blocks
 
-tile.fluxengine.name=Flux Engine
-tile.gearbox.name=Gear Box(W.I.P)
-tile.hydroblock.name=Hydro Block(W.I.P)
-tile.gearmachine.name=Assembling Machine
-tile.chromatank.name=Chromastone Tank
+tile.fluxEngine.name=Flux Engine
+tile.fabricatingMachine.name=Fabricating Machine
+tile.mineralCompressor.name=Mineral Compressor
+tile.metalTransfuser.name=Metallurgic-Fuser
+tile.mechanicalFurnace.name=Mechanical Furnace
+tile.chromaTank.name=Chromastone Tank
 
-tile.chromaore.name=Chromastone Ore
+tile.oreChroma.name=Chromastone Ore
+tile.oreTitanium.name=Titanium Ore
 
-item.chromachunk.name=Chunk of Chromastone
-item.chromaingot.name=Chromastone Ingot
+item.chromaChunk.name=Chunk of Chromastone
+item.chromaIngot.name=Chromastone Ingot
 
+item.woodPulp.name=Wood Pulp
+item.plasticDust.name=Plastic Dust
+item.ironDust.name=Iron Dust
+item.titaniumDust.name=Titanium Dust
+item.goldDust.name=Gold Dust
+item.diamondDust.name=Diamond Dust
+item.emeraldDust.name=Emerald Dust
+item.chromaDust.name=Chromastone Dust
+item.coalDust.name=Coal Dust
 
-item.woodbattery.name=Wooden Battery
-item.stonebattery.name=Stone Battery
-item.ironbattery.name=Iron Battery
-item.goldbattery.name=Gold Battery
-item.diamondbattery.name=Diamond Battery
+item.plasticRod.name=Plastic Rod
+item.reinforcedRod.name=Reinforced Rod
+item.titaniumRod.name=Titanium Rod
+item.fluxRod.name=Flux Rod
 
-item.emptydrill.name=Empty Drill
-item.wooddrill.name=Wooden Drill
-item.stonedrill.name=Stone Drill
-item.irondrill.name=Iron Drill
-item.golddrill.name=Gold Drill
-item.diamonddrill.name=Diamond Drill
+item.PipeChromastoneItems.name=Chromastone Transport Pipe
+item.PipeChromastoneFluids.name=Chromastone Fluid Pipe
+item.PipeChromastonePower.name=Chromastone Kinesis Pipe

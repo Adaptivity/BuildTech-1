@@ -1,0 +1,16 @@
+[
+{
+  "modid": "buildtech",
+  "name": "BuildTech",
+  "description": "A mod that adds the the new machines that will assist in the many things you will be doing.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://www.minecraftforum.net/topic/2598377-buildtech-an-addon-to-buildcraft/",
+  "updateUrl": "http://www.minecraftforum.net/topic/2598377-buildtech-an-addon-to-buildcraft/",
+  "authorList": ["UniversalRed"],
+  "credits": "UniversalRed and The Community",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
