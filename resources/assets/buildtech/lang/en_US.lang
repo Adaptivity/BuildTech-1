@@ -1,4 +1,4 @@
-item.fluxGear.name=Flux Gear
+item.gearFlux.name=Flux Gear
 item.woodenGearPart.name=Part of a Wooden Gear
 item.stoneGearPart.name=Part of a Stone Gear
 item.ironGearPart.name=Part of a Iron Gear
@@ -41,3 +41,13 @@ item.fluxRod.name=Flux Rod
 item.PipeChromastoneItems.name=Chromastone Transport Pipe
 item.PipeChromastoneFluids.name=Chromastone Fluid Pipe
 item.PipeChromastonePower.name=Chromastone Kinesis Pipe
+
+tile.blockChroma.name=Chromastone Block
+tile.blockTitanium.name=Titanium Block
+
+item.ingotReinforced.name=Reinforced Ingot
+item.ingotTitanium.name=Titanium Ingot
+item.ingotFlux.name=Flux Ingot
+item.ingotChroma.name=Chromastone Ingot
+
+item.plateSteel.name=Steel Plate

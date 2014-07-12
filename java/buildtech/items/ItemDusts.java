@@ -38,6 +38,6 @@ public class ItemDusts extends Item
 	@SideOnly(Side.CLIENT)
 	public void addInformation(ItemStack iStack, EntityPlayer player, List list, boolean visible)
 	{	
-		list.add("BuildTech|Dusts");
+		list.add("BuildTech");
 		}
 }

@@ -34,7 +34,7 @@ public class EventManager implements IWorldGenerator
 	        this.addOreSpawn(ModBlocks.oreTitanium, world, random, x, z, 16, 16, 4 + random.nextInt(1), 5, 15, 20);
 	        this.addOreSpawn(ModBlocks.oreChroma, world, random, x, z, 16, 16, 4 + random.nextInt(1), 5, 15, 16);
 	    //    this.addOreSpawn(ModBlocks.oreTin, world, random, x, z, 32, 60, 4 + random.nextInt(5), 5, 15, 60); <--Fix
-	        this.addOreSpawn(ModBlocks.oreCopper, world, random, x, z, 32, 60, 4 + random.nextInt(7), 5, 15, 50);
+	    //    this.addOreSpawn(ModBlocks.oreCopper, world, random, x, z, 32, 60, 4 + random.nextInt(7), 5, 15, 50);
 
 	    }
 	 

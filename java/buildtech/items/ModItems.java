@@ -61,6 +61,9 @@ public class ModItems
 	//Types of Plates//
 	public static Item plateSteel;
 	
+	//Other//
+	public static Item gearFlux;
+	
 	public static void ItemInit()
 	{
 		/*Rods*/
@@ -133,6 +136,10 @@ public class ModItems
 		.setUnlocalizedName("plateSteel")
 		.setTextureName(Book.MODID + ":" + "plateSteel");
 		
+		gearFlux = new ItemIngots(ConfigHandler.gearFlux, gearFlux)
+		.setUnlocalizedName("gearFlux")
+		.setTextureName(Book.MODID + ":" + "fluxGear");
+		
 		/*Batteries*/
 /*		ironBattery = new ItemBatteries(ConfigHandler.ironBattery, ironBattery)
 		.setUnlocalizedName("ironBattery");
@@ -173,6 +180,8 @@ public class ModItems
 		GameRegistry.registerItem(ingotChroma, "ingotChroma");
 		
 		GameRegistry.registerItem(plateSteel, "plateSteel");
+		
+		GameRegistry.registerItem(gearFlux, "gearFlux");
 
 	/*	
 		GameRegistry.registerItem(ironBattery, "ironBattery");

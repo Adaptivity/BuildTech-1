@@ -86,8 +86,8 @@ public class ModBlocks
 		
 		GameRegistry.registerBlock(oreTitanium, "oreTitanium");
 		GameRegistry.registerBlock(oreChroma, "oreChroma");
-		GameRegistry.registerBlock(oreTin, "oreTin");
-		GameRegistry.registerBlock(oreCopper, "oreCopper");
+	//	GameRegistry.registerBlock(oreTin, "oreTin");
+	//	GameRegistry.registerBlock(oreCopper, "oreCopper");
 
 		GameRegistry.registerBlock(blockTitanium, "blockTitanium");
 		GameRegistry.registerBlock(blockChroma, "blockChroma");

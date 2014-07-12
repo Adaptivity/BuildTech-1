@@ -85,6 +85,8 @@ public class ConfigHandler
 		public static int blockCopper;
 		
 		public static int plateSteel;
+		
+		public static int gearFlux;
 
 		public static boolean toggleCustomRecipes;
 		
@@ -171,6 +173,8 @@ public class ConfigHandler
 	    	
 	    	plateSteel = config.get("Items", "PlateSteel", 3053).getInt();
 
+	    	gearFlux = config.get("Items", "gearFlux", 3054).getInt();
+	    	
 	    	powerDifficultyModifiers = new int[4];
 
 	        config.addCustomCategoryComment("Updates", "Section about updates");

@@ -29,6 +29,6 @@ public class ItemIngots extends Item
 	@SideOnly(Side.CLIENT)
 	public void addInformation(ItemStack iStack, EntityPlayer player, List list, boolean visible)
 	{	
-		list.add("BuildTech|Ingots");
+		list.add("BuildTech");
 		}
 }

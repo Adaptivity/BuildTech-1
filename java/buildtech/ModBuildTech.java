@@ -29,13 +29,11 @@ import buildtech.recipes.ModRecipes;
 import buildtech.recipes.factory.RecipeMineralCompressor;
 import buildtech.utils.EventManager;
 
-@Mod
-(
-modid= Book.MODID, 
-name= Book.NAME, 
-version= Book.VERSION,
-dependencies = "required-after:BuildCraft|Energy@{6.0.16}"
-)
+@Mod(
+modid = Book.MODID, 
+name = Book.NAME, 
+version = Book.VERSION,
+dependencies = "required-after:BuildCraft|Energy@{6.0.17}")
 
 public class ModBuildTech 
 {
@@ -73,11 +71,6 @@ public class ModBuildTech
 		 
 		 ModRecipes.BuildTechRecipes();
 		 ModRecipes.BuildTechAssemblyRecipes();
-		 
-		 if(ConfigHandler.toggleCustomRecipes == true)
-		 {
-			 ModRecipes.BuildTechToggledRecipes();
-		 }
 	 }
 	 
 	 @EventHandler
@@ -89,6 +82,11 @@ public class ModBuildTech
 	 @EventHandler
 	 public void PostInit(FMLPostInitializationEvent event)
 	 {
-       
+		 /*
+		 if(ConfigHandler.toggleCustomRecipes == true)
+		 {
+			 ModRecipes.BuildTechToggledRecipes();
+		 }
+		 */
 	 }
 }

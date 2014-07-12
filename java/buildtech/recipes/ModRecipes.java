@@ -1,9 +1,17 @@
 package buildtech.recipes;
 
+import java.util.List;
+
 import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import buildcraft.*;
+import buildcraft.api.recipes.BuildcraftRecipes;
+import buildcraft.api.recipes.IAssemblyRecipeManager;
+import buildcraft.silicon.ItemRedstoneChipset.Chipset;
 import buildtech.blocks.ModBlocks;
 import buildtech.items.ModItems;
+import buildtech.utils.RecipeRemover;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class ModRecipes
@@ -52,15 +60,29 @@ public class ModRecipes
 			"SPS",
 			'S', ModItems.plateSteel, 'P', Blocks.piston, 'R', Blocks.redstone_block, 'C', Blocks.cobblestone
 		});
+		
+		GameRegistry.addSmelting(ModBlocks.oreChroma, new ItemStack(ModItems.ingotChroma), 3F);
+		GameRegistry.addSmelting(ModBlocks.oreTitanium, new ItemStack(ModItems.ingotTitanium), 3F);
+
+		
+		
 	}
 	
 	public static void BuildTechAssemblyRecipes()
 	{
-		
+		BuildcraftRecipes.assemblyTable.addRecipe(20000, new ItemStack(ModItems.gearFlux), Items.redstone, Items.diamond);
+	
 	}
 	
 	public static void BuildTechToggledRecipes()
 	{
-		
+		RecipeRemover.removeRecipes(new ItemStack(BuildCraftCore.woodenGearItem));
+    	RecipeRemover.removeRecipes(new ItemStack(BuildCraftCore.stoneGearItem));
+    	RecipeRemover.removeRecipes(new ItemStack(BuildCraftCore.ironGearItem));
+    	RecipeRemover.removeRecipes(new ItemStack(BuildCraftCore.goldGearItem));
+    	RecipeRemover.removeRecipes(new ItemStack(BuildCraftCore.diamondGearItem));
+    	RecipeRemover.removeRecipes(new ItemStack(BuildCraftFactory.quarryBlock));
+    	
+    	
 	}
 }

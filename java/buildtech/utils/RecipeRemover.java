@@ -1,11 +1,4 @@
-/**
- * This work is licensed under the MMPL Mod License.
- * You can find more information about the MMPL license here:
- * http://www.mod-buildcraft.com/MMPL-1.0.txt
- *
- * This file is a property of BuildTech made by UniversalRed for BuildCraft, a mod for MineCraft
- */
-package buildtech.recipes;
+package buildtech.utils;
 
 import java.util.ArrayList;
 
@@ -20,7 +13,7 @@ import net.minecraftforge.oredict.ShapedOreRecipe;
 
 public class RecipeRemover{
 
-	public static void removeRecipesWithResult(ItemStack resultItem)
+	public static void removeRecipes(ItemStack resultItem)
 	{
 	    ArrayList recipes = (ArrayList) CraftingManager.getInstance().getRecipeList();
 
@@ -39,7 +32,6 @@ public class RecipeRemover{
 	                ShapelessRecipes recipe = (ShapelessRecipes)tmpRecipe;
 	                recipeResult = recipe.getRecipeOutput();
 	            }
-	            System.out.println("[BuildTech] Removing Recipe: " + recipes.get(scan) + " -> " + recipeResult);
 	            recipes.remove(scan);
 	        }
 	    }
