@@ -62,10 +62,7 @@ public class ModRecipes
 		});
 		
 		GameRegistry.addSmelting(ModBlocks.oreChroma, new ItemStack(ModItems.ingotChroma), 3F);
-		GameRegistry.addSmelting(ModBlocks.oreTitanium, new ItemStack(ModItems.ingotTitanium), 3F);
-
-		
-		
+		GameRegistry.addSmelting(ModBlocks.oreTitanium, new ItemStack(ModItems.ingotTitanium), 3F);	
 	}
 	
 	public static void BuildTechAssemblyRecipes()
@@ -76,13 +73,23 @@ public class ModRecipes
 	
 	public static void BuildTechToggledRecipes()
 	{
-		RecipeRemover.removeRecipes(new ItemStack(BuildCraftCore.woodenGearItem));
-    	RecipeRemover.removeRecipes(new ItemStack(BuildCraftCore.stoneGearItem));
-    	RecipeRemover.removeRecipes(new ItemStack(BuildCraftCore.ironGearItem));
-    	RecipeRemover.removeRecipes(new ItemStack(BuildCraftCore.goldGearItem));
-    	RecipeRemover.removeRecipes(new ItemStack(BuildCraftCore.diamondGearItem));
     	RecipeRemover.removeRecipes(new ItemStack(BuildCraftFactory.quarryBlock));
+    	RecipeRemover.removeRecipes(new ItemStack(BuildCraftFactory.floodGateBlock));
+
+    	GameRegistry.addRecipe(new ItemStack(BuildCraftFactory.quarryBlock,1), new Object[]
+    	{
+			"SIS",
+			"IRI",
+			"SSS",
+			'I',BuildCraftCore.ironGearItem, 'S', ModItems.plateSteel,'R', Blocks.redstone_block
+		});
     	
-    	
+    	GameRegistry.addRecipe(new ItemStack(BuildCraftFactory.floodGateBlock,1), new Object[]
+    	{
+    		"SBS",
+    		"GRG",
+    		"SGS",
+    		'G',BuildCraftTransport.pipeFluidsGold, 'S', ModItems.plateSteel,'R', Blocks.redstone_block, 'B', Blocks.iron_block
+    	});
 	}
 }

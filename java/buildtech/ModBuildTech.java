@@ -82,11 +82,11 @@ public class ModBuildTech
 	 @EventHandler
 	 public void PostInit(FMLPostInitializationEvent event)
 	 {
-		 /*
+		 
 		 if(ConfigHandler.toggleCustomRecipes == true)
 		 {
 			 ModRecipes.BuildTechToggledRecipes();
 		 }
-		 */
+		 
 	 }
 }

@@ -14,7 +14,11 @@ public class OreDictionaryBuildTech
 		OreDictionary.registerOre("dustIron", ModItems.dustIron);
 		OreDictionary.registerOre("dustGold", ModItems.dustGold);
 		OreDictionary.registerOre("pulpWood", ModItems.pulpWood);
-		
+		OreDictionary.registerOre("dustTitanium", ModItems.dustTitanium);
+		OreDictionary.registerOre("dustCoal", ModItems.dustCoal);
+		OreDictionary.registerOre("dustChroma", ModItems.dustChroma);
+		OreDictionary.registerOre("dustReinforced", ModItems.dustReinforced);
+
 		/*MOD|Dusts*/
 		OreDictionary.registerOre("dustChroma", ModItems.dustChroma);
 		OreDictionary.registerOre("dustTitanium", ModItems.dustTitanium);
@@ -31,10 +35,13 @@ public class OreDictionaryBuildTech
 		OreDictionary.registerOre("blockTitanium", ModBlocks.blockTitanium);	
 		OreDictionary.registerOre("oreChroma", ModBlocks.oreChroma);
 		OreDictionary.registerOre("blockChroma", ModBlocks.blockChroma);	
-		OreDictionary.registerOre("oreCopper", ModBlocks.oreCopper);
+	/*	OreDictionary.registerOre("oreCopper", ModBlocks.oreCopper);
 		OreDictionary.registerOre("blockCopper", ModBlocks.blockCopper);	
 		OreDictionary.registerOre("oreTin", ModBlocks.oreTin);
 		OreDictionary.registerOre("blockTin", ModBlocks.blockTin);
-
+	*/
+		
+		/*MOD|Plates*/
+		OreDictionary.registerOre("plateSteel", ModItems.plateSteel);
 	}
 }

@@ -55,7 +55,7 @@ public class RecipeHelper {
 		/*Metallurgic_Infuser*/
 		registerRecipe(new RecipeMetallurgicInfuser(new ItemStack(ModItems.dustCoal), new ItemStack(ModItems.pulpWood), new ItemStack(Items.coal)));
 		registerRecipe(new RecipeMetallurgicInfuser(new ItemStack(ModItems.dustIron, 2), new ItemStack(Blocks.cobblestone, 4), new ItemStack(ModItems.dustReinforced, 1)));
-		registerRecipe(new RecipeMetallurgicInfuser(new ItemStack(ModItems.dustReinforced, 2), new ItemStack(Items.iron_ingot, 3), new ItemStack(ModItems.dustTitanium, 2)));
+		registerRecipe(new RecipeMetallurgicInfuser(new ItemStack(ModItems.dustReinforced, 2), new ItemStack(Items.iron_ingot, 3), new ItemStack(ModItems.ingotTitanium, 1)));
 	}
 
 	public static void registerRecipe(Recipe recipe) {
