@@ -1,7 +1,7 @@
 package buildtech.containers;
 
 import buildtech.blocks.factory.*;
-import buildtech.erates.realmachines.recipes.Recipe;
+import buildtech.extras.erates.realmachines.recipes.Recipe;
 import buildtech.libs.Book;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;

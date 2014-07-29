@@ -18,7 +18,7 @@ import cpw.mods.fml.common.network.NetworkRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 import buildtech.blocks.*;
 import buildtech.configuration.*;
-import buildtech.erates.realmachines.recipes.RecipeHelper;
+import buildtech.extras.erates.realmachines.recipes.*;
 import buildtech.extras.aenterprise.buildcraftadditions.items.ItemDust;
 import buildtech.extras.aenterprise.buildcraftadditions.utils.DusterRecepies;
 import buildtech.guis.GuiHandler;

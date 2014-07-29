@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import buildtech.erates.realmachines.recipes.Recipe;
+import buildtech.extras.erates.realmachines.recipes.Recipe;
 
 public class RecipeMetallurgicInfuser extends Recipe
 {

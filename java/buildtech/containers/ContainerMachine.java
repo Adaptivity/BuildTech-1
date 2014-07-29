@@ -1,7 +1,7 @@
 package buildtech.containers;
 
 import buildtech.blocks.TileMachine;
-import buildtech.erates.realmachines.recipes.RecipeHelper;
+import buildtech.extras.erates.realmachines.recipes.*;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.Container;
 import net.minecraft.inventory.ICrafting;

@@ -4,8 +4,8 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import buildcraft.core.inventory.SimpleInventory;
 import buildtech.blocks.TileMachine;
-import buildtech.erates.realmachines.recipes.Recipe;
-import buildtech.erates.realmachines.recipes.RecipeHelper;
+import buildtech.extras.erates.realmachines.recipes.*;
+
 
 
 

@@ -1,8 +1,7 @@
 package buildtech.blocks.factory;
 
 import buildtech.blocks.TileMachine;
-import buildtech.erates.realmachines.recipes.Recipe;
-import buildtech.erates.realmachines.recipes.RecipeHelper;
+import buildtech.extras.erates.realmachines.recipes.*;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 

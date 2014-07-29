@@ -1,4 +1,4 @@
-package buildtech.erates.realmachines.recipes;
+package buildtech.extras.erates.realmachines.recipes;
 
 import java.util.ArrayList;
 

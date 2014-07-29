@@ -17,7 +17,7 @@ import buildcraft.api.mj.MjBattery;
 import buildcraft.core.fluids.Tank;
 import buildcraft.core.fluids.TankManager;
 import buildcraft.core.inventory.SimpleInventory;
-import buildtech.erates.realmachines.recipes.RecipeHelper;
+import buildtech.extras.erates.realmachines.recipes.*;
 
 
 public class TileMachine extends TileEntity implements ISidedInventory {
