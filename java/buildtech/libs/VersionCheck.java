@@ -59,7 +59,7 @@ public class VersionCheck
         public void pingVersionChecker(){
             if (Loader.isModLoaded("VersionChecker")){
                 NBTTagCompound tag = new NBTTagCompound();
-                tag.setString("modDisplayName", "Buildcraft Additions");
+                tag.setString("modDisplayName", "BuildTech");
                 tag.setString("oldVersion", currentVersion);
                 tag.setString("newVersion", newVersionNumber);
                 tag.setString("updateUrl", "http://minecraft.curseforge.com/mc-mods/79581-buildtech/files");
