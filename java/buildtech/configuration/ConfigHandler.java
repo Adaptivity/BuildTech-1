@@ -1,5 +1,8 @@
 package buildtech.configuration;
 
+import java.io.File;
+
+import buildtech.libs.VersionCheck;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;
 
@@ -94,15 +97,20 @@ public class ConfigHandler
 	    public static int[] powerDifficultyModifiers;
 	    public static int basePowerModifier;
 
+	    public static Configuration config;
+
+	   
 		
 		public static void loadConfig(Configuration config)
 		{
-			try 
+			try
 			{
-				config.load();
-				
+	        config.addCustomCategoryComment("Misc", "Misc. Section");
+
 	        toggleCustomRecipes = config.get("Toggle to Enable Custom BC Recipes ", "Toggle Custom BC Recipes" , false).getBoolean(false);
 
+	        config.addCustomCategoryComment("IDS'", "IDS' Section");
+	        
 	        fluxEngine = config.get("Blocks", "FluxEngine", 3000).getInt();
 	        
 	        fabricatingMachine = config.get("Blocks", "GearMachine", 3001).getInt();
@@ -177,33 +185,16 @@ public class ConfigHandler
 	    	
 	    	powerDifficultyModifiers = new int[4];
 
-	        config.addCustomCategoryComment("Updates", "Section about updates");
+	        config.addCustomCategoryComment("Updates", "Updates Section");
 
-	        Property shouldPrintOutChangelog = config.get("Updates", "shouldPrintOutChangelog", false);
-	        shouldPrintChangelog = shouldPrintOutChangelog.getBoolean(false);
-
-
-
-	        config.addCustomCategoryComment("Power Usage", "Modify how much energy the tools use");
-
-	        Property peacefullModifier = config.get("Power Usage", "PeacefullDifficultyModifier", 1);
-	        powerDifficultyModifiers[0] = peacefullModifier.getInt();
-
-	        Property easyModifier = config.get("Power Usage", "EasyDifficultyModifier", 2);
-	        powerDifficultyModifiers[1] = easyModifier.getInt();
-
-	        Property normalModifier = config.get("Power Usage", "NormalDifficultyModifier", 3);
-	        powerDifficultyModifiers[2] = normalModifier.getInt();
-
-	        Property hardModifier = config.get("Power Usage", "HardDifficultyModifier", 4);
-	        powerDifficultyModifiers[3] = hardModifier.getInt();
-
-	        Property baseModifier = config.get("Power Usage", "BaseModifier", 10);
-	        basePowerModifier = baseModifier.getInt();
-
-			}finally{
-				if(config.hasChanged());
-				   config.save();
+	        if (config.get("Updates", "shouldCheckForUpdates", true).getBoolean())
+	            VersionCheck.start();
+	        shouldPrintChangelog = config.get("Updates", "shouldPrintOutChangelog", false).getBoolean();
+	        
+		}finally{
+			
+			if(config.hasChanged());
+				config.save();
 		}
 	}
 }

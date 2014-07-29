@@ -14,10 +14,8 @@ public class OreDictionaryBuildTech
 		OreDictionary.registerOre("dustIron", ModItems.dustIron);
 		OreDictionary.registerOre("dustGold", ModItems.dustGold);
 		OreDictionary.registerOre("pulpWood", ModItems.pulpWood);
-		OreDictionary.registerOre("dustTitanium", ModItems.dustTitanium);
 		OreDictionary.registerOre("dustCoal", ModItems.dustCoal);
-		OreDictionary.registerOre("dustChroma", ModItems.dustChroma);
-		OreDictionary.registerOre("dustReinforced", ModItems.dustReinforced);
+
 
 		/*MOD|Dusts*/
 		OreDictionary.registerOre("dustChroma", ModItems.dustChroma);

@@ -4,7 +4,7 @@ public class Book
 {
 	public static final String NAME = "BuildTech";
 	public static final String MODID = "BuildTech";
-	public static final String VERSION = "1.7.10_R-1.0.0";
+	public static final String VERSION = "1.7.10_R-1.0.1";
 	
 	public static int dimensionId = 8;
 	

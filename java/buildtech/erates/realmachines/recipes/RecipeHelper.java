@@ -52,6 +52,13 @@ public class RecipeHelper {
 		registerRecipe(new RecipeMechanicalFurnace(new ItemStack(ModItems.dustTitanium), new ItemStack(ModItems.ingotTitanium)));
 		registerRecipe(new RecipeMechanicalFurnace(new ItemStack(ModBlocks.oreTitanium), new ItemStack(ModItems.ingotTitanium)));
 
+		registerRecipe(new RecipeMechanicalFurnace(new ItemStack(Items.potato), new ItemStack(Items.baked_potato)));
+		registerRecipe(new RecipeMechanicalFurnace(new ItemStack(Items.porkchop), new ItemStack(Items.cooked_porkchop)));
+		registerRecipe(new RecipeMechanicalFurnace(new ItemStack(Items.beef), new ItemStack(Items.cooked_beef)));
+		registerRecipe(new RecipeMechanicalFurnace(new ItemStack(Items.chicken), new ItemStack(Items.cooked_chicken)));
+		registerRecipe(new RecipeMechanicalFurnace(new ItemStack(Blocks.cobblestone), new ItemStack(Blocks.stone)));
+		registerRecipe(new RecipeMechanicalFurnace(new ItemStack(Blocks.log), new ItemStack(Items.coal)));
+
 		/*Metallurgic_Infuser*/
 		registerRecipe(new RecipeMetallurgicInfuser(new ItemStack(ModItems.dustCoal), new ItemStack(ModItems.pulpWood), new ItemStack(Items.coal)));
 		registerRecipe(new RecipeMetallurgicInfuser(new ItemStack(ModItems.dustIron, 2), new ItemStack(Blocks.cobblestone, 4), new ItemStack(ModItems.dustReinforced, 1)));

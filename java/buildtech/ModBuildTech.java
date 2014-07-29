@@ -33,6 +33,7 @@ import buildtech.utils.EventManager;
 modid = Book.MODID, 
 name = Book.NAME, 
 version = Book.VERSION,
+guiFactory = "BuildTech.configuration.GuiFactory",
 dependencies = "required-after:BuildCraft|Energy@{6.0.17}")
 
 public class ModBuildTech 
@@ -71,6 +72,8 @@ public class ModBuildTech
 		 
 		 ModRecipes.BuildTechRecipes();
 		 ModRecipes.BuildTechAssemblyRecipes();
+		 
+		 OreDictionaryBuildTech.initOreDicts();
 	 }
 	 
 	 @EventHandler
