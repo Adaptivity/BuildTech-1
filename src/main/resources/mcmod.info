@@ -1,0 +1,19 @@
+[
+{
+  "modid": "buildtech",
+  "name": "BuildTech",
+  "description": "Adds new things to the Buildcraft Game",
+  "version": "$version",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["UniversalRed"],
+  "credits": "Made by UniversalRed and the help of The Community",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": [
+        "Buildcraft 6.0.17"
+
+  ]
+}
+]
